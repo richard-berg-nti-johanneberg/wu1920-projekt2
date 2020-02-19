@@ -1,0 +1,73 @@
+body{
+    background-image:url(../img/Artesonraju3.jpg); 
+
+}
+
+.rubrik {
+    text-align:center;
+    display:grid;
+    color:white;
+}
+
+.grid-container{
+display:grid;
+background-color:red;
+grid-gap:10px;
+grid-template-columns: auto auto auto auto auto;
+text-align:center;
+padding:10px;
+margin-bottom: 10px;
+
+}
+
+.grid-item{
+    background-color: green;
+}
+
+.grid-container2{
+    display:grid;
+    grid-gap:10px;
+    text-align:center;
+    color:white;
+}
+
+.grid-item6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color:blue;
+
+  }
+
+  .grid-item7{
+      grid-row-start:1;
+      grid-row-end:4;
+      background-color:blue;
+
+  }
+
+
+.grid-item9{
+    background-color:blue;
+
+}
+.grid-item10{
+    background-color:blue;
+
+
+}
+.grid-item11{
+    background-color:blue;
+
+}
+.grid-item12{
+    background-color:blue;
+
+}
+.grid-item13{
+    background-color:blue;
+
+}
+
+img{
+    max-width:100%;
+}
