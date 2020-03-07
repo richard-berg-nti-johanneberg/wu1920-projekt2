@@ -11,6 +11,7 @@ body{
     text-align:center;
     width: 600px;
     height: auto;
+    align-items:center;
 }
 
 .grid-item100 {
@@ -141,4 +142,55 @@ a:link {
       text-align: center;
   }
 
+
+  .rubrik2{
+      display:grid;
+      background-color: yellow;
+      text-align:center;
+      padding:10px;
+      margin-bottom:30px;
+  }
+  .rubrik-item{
+      display:grid;
+  }
+
+  .genrer{
+      display:grid;
+      grid-gap:10px;
+      text-align:center;
+      align-items: center;
+  }
+  .genre-item{
+      padding:10px;
+      display:grid;
+      background-color: yellow;
+      grid-column-start: 1;
+      grid-column-end: 4;
+  }
+  .genre-item2{
+      padding:10px;
+      display:grid;
+      background-color:lightblue;
+      grid-column-start:4;
+      grid-column-end:4;
+      grid-row-start:1;
+      grid-row-end:3;
+      align-items:center;
   
+
+  }
+  .genre-item3{
+      padding:10px;
+      display:grid;
+      background-color:lightgreen;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      
+      
+
+  }
+
+  img{
+      margin-left: auto;
+      margin-right:auto;    
+  }
