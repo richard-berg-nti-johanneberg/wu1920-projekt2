@@ -1,27 +1,7 @@
 body{
     background-color: whitesmoke; 
 
-}
-
-
-
-.rubrik{
-    display:grid;
-    position: relative;
-    text-align:center;
-    width: 600px;
-    height: auto;
-    align-items:center;
-}
-
-.grid-item100 {
-position:absolute;
-top:50%;
-left:50%;
-transform: translate(-50%, -50%);
-
-}
-    
+}   
 
 .grid-container{
 display:grid;
@@ -70,6 +50,71 @@ margin-bottom: 15px;
 .sok{
     display: flex;
     justify-content: center;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-grid;
+  transition: background-color 0.6s ease;
+  margin-bottom:10px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .grid-container2{
@@ -161,14 +206,14 @@ a:link {
       align-items: center;
   }
   .genre-item{
-      padding:10px;
+      padding:20px;
       display:grid;
-      background-color: yellow;
+      background-color: lightblue;
       grid-column-start: 1;
       grid-column-end: 4;
   }
   .genre-item2{
-      padding:10px;
+      padding:20px;
       display:grid;
       background-color:lightblue;
       grid-column-start:4;
@@ -180,15 +225,100 @@ a:link {
 
   }
   .genre-item3{
-      padding:10px;
+      padding:20px;
+      display:grid;
+      background-color:lightblue;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      margin-bottom: 30px;
+  }
+
+  .genre-item4{
+    padding:20px;
+    display:grid;
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+.genre-item5{
+    padding:20px;
+    display:grid;
+    background-color:lightgreen;
+    grid-column-start:4;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:5;
+    align-items:center;
+}
+
+.genre-item6{
+    padding:20px;
       display:grid;
       background-color:lightgreen;
       grid-column-start: 1;
       grid-column-end: 4;
-      
-      
+      margin-bottom: 30px;
 
-  }
+}
+
+.genre-item7{
+    padding:20px;
+    display:grid;
+    background-color: lightgray;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.genre-item8{
+    padding:20px;
+    display:grid;
+    background-color:lightgray;
+    grid-column-start:4;
+    grid-column-end:4;
+    grid-row-start:5;
+    grid-row-end:7;
+    align-items:center;
+}
+
+.genre-item9{
+    padding:20px;
+    display:grid;
+    background-color:lightgray;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 30px;
+
+}
+
+.genre-item10{
+    padding:20px;
+    display:grid;
+    background-color: lightpink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.genre-item11{
+    padding:20px;
+    display:grid;
+    background-color:lightpink;
+    grid-column-start:4;
+    grid-column-end:4;
+    grid-row-start:7;
+    grid-row-end:9;
+    align-items:center;
+}
+
+.genre-item12{
+    padding:20px;
+    display:grid;
+    background-color: lightpink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 30px;
+
+}
 
   img{
       margin-left: auto;
