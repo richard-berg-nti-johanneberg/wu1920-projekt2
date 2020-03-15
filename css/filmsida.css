@@ -324,3 +324,60 @@ a:link {
       margin-left: auto;
       margin-right:auto;    
   }
+
+  .klassiska-container{
+    display:grid;
+   background-color: lightgreen;
+   grid-gap:10px;
+   margin-bottom:10px;
+  }
+
+  .klassiska-container2{
+    display:grid;
+grid-gap:10px;
+
+  }
+  .klassiska-item2{
+    display:grid;
+    background-color:lightyellow;
+    grid-template-columns:auto auto auto ;
+    grid-gap:5px;
+    text-align:center;
+  }
+
+  .barn-filmer1{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+  }
+  .barn-filmer{
+    background-color:lightsteelblue;
+    padding:10px;
+  }
+
+  .skrack-filmer1{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+  }
+
+  .skrack-filmer{
+    background-color:lightsteelblue;
+    padding:10px;
+
+  }
+
+  .komedi-filmer1{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+  }
+
+  .komedi-filmer{
+    background-color:lightsteelblue;
+    padding:10px;
+
+  }
