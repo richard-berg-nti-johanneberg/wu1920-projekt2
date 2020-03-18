@@ -381,3 +381,398 @@ grid-gap:10px;
     padding:10px;
 
   }
+
+  .konto-container{
+    background-color:lightslategray;
+    margin-left:35%;
+    margin-right:35%;
+    padding:30px;
+  }
+
+  .inuti-konto{
+    background-color:lightskyblue;
+    margin-bottom:10px;
+    padding:5px;
+  }
+
+  
+  .inuti-konto1{
+    background-color:lightsalmon;
+    margin-top:20px;
+    text-align:center;
+    padding:5px;
+    margin-bottom:5px;
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    .grid-container{
+      display:grid;
+      grid-gap:auto;
+      grid-template-columns: auto;
+      text-align:center;
+      grid-gap:10px;
+      margin-bottom: 10px;
+      
+      }
+      
+      .grid-item{
+          background-color: #666A73;
+          display:grid;
+          align-items: center;
+          
+          
+      }
+      
+      .grid-item1{
+          background-color: #666A73;
+          display:grid;
+          grid-template-columns: auto auto;
+         
+          align-items: center;
+          
+      }
+      
+      .grid-item2{
+          background-color: #666A73;
+          display: grid;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .form {
+          display: grid;
+          grid-template-columns: auto auto;
+          max-width:80%;
+          max-height:80%;
+      
+      }
+      
+      
+      .sok{
+          display: flex;
+          justify-content: center;
+      }
+      
+      * {box-sizing:border-box}
+      
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      .mySlides {
+        display: none;
+      }
+      
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-grid;
+        transition: background-color 0.6s ease;
+        margin-bottom:10px;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      .grid-container2{
+          display:grid;
+          grid-gap:15px;
+          text-align:center;
+          color:white;
+          margin-bottom: 50px;
+      }
+      
+     
+      
+      
+      img{
+          max-width:50%;
+          padding:10px
+      }
+      
+      a:link {
+          text-decoration: none;
+          color:white;
+          
+        }
+        
+        a:visited {
+          text-decoration: none;
+          color:white;
+        }
+        
+        a:hover {
+          text-decoration: underline;
+          color:black;
+        }
+      
+        .grid-container3{
+            background: lightgray;
+            display:grid;
+            grid-template-columns:auto auto auto auto;
+            text-align: center;
+        }
+      
+      
+        .rubrik2{
+            display:grid;
+            background-color: yellow;
+            text-align:center;
+            padding:10px;
+            margin-bottom:30px;
+        }
+        .rubrik-item{
+            display:grid;
+        }
+      
+        .genrer{
+            display:grid;
+            grid-gap:10px;
+            text-align:center;
+            align-items: center;
+        }
+        .genre-item{
+            padding:20px;
+            display:grid;
+            background-color: lightblue;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .genre-item2{
+            padding:20px;
+            display:grid;
+            background-color:lightblue;
+            grid-column-start:4;
+            grid-column-end:4;
+            grid-row-start:1;
+            grid-row-end:3;
+            align-items:center;
+        
+      
+        }
+        .genre-item3{
+            padding:20px;
+            display:grid;
+            background-color:lightblue;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin-bottom: 30px;
+        }
+      
+        .genre-item4{
+          padding:20px;
+          display:grid;
+          background-color: lightgreen;
+          grid-column-start: 1;
+          grid-column-end: 4;
+        }
+      
+      .genre-item5{
+          padding:20px;
+          display:grid;
+          background-color:lightgreen;
+          grid-column-start:4;
+          grid-column-end:4;
+          grid-row-start:3;
+          grid-row-end:5;
+          align-items:center;
+      }
+      
+      .genre-item6{
+          padding:20px;
+            display:grid;
+            background-color:lightgreen;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin-bottom: 30px;
+      
+      }
+      
+      .genre-item7{
+          padding:20px;
+          display:grid;
+          background-color: lightgray;
+          grid-column-start: 1;
+          grid-column-end: 4;
+      }
+      
+      .genre-item8{
+          padding:20px;
+          display:grid;
+          background-color:lightgray;
+          grid-column-start:4;
+          grid-column-end:4;
+          grid-row-start:5;
+          grid-row-end:7;
+          align-items:center;
+      }
+      
+      .genre-item9{
+          padding:20px;
+          display:grid;
+          background-color:lightgray;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          margin-bottom: 30px;
+      
+      }
+      
+      .genre-item10{
+          padding:20px;
+          display:grid;
+          background-color: lightpink;
+          grid-column-start: 1;
+          grid-column-end: 4;
+      }
+      
+      .genre-item11{
+          padding:20px;
+          display:grid;
+          background-color:lightpink;
+          grid-column-start:4;
+          grid-column-end:4;
+          grid-row-start:7;
+          grid-row-end:9;
+          align-items:center;
+      }
+      
+      .genre-item12{
+          padding:20px;
+          display:grid;
+          background-color: lightpink;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          margin-bottom: 30px;
+      
+      }
+      
+        img{
+            margin-left: auto;
+            margin-right:auto;    
+        }
+      
+        .klassiska-container{
+          display:grid;
+         background-color: lightgreen;
+         grid-gap:10px;
+         margin-bottom:10px;
+        }
+      
+        .klassiska-container2{
+          display:grid;
+      grid-gap:10px;
+      
+        }
+        .klassiska-item2{
+          display:grid;
+          background-color:lightyellow;
+          grid-template-columns:auto auto auto ;
+          grid-gap:5px;
+          text-align:center;
+        }
+      
+        .barn-filmer1{
+          display:grid;
+          grid-column-start: 1;
+          grid-column-end: 4;
+      
+        }
+        .barn-filmer{
+          background-color:lightsteelblue;
+          padding:10px;
+        }
+      
+        .skrack-filmer1{
+          display:grid;
+          grid-column-start: 1;
+          grid-column-end: 4;
+      
+        }
+      
+        .skrack-filmer{
+          background-color:lightsteelblue;
+          padding:10px;
+      
+        }
+      
+        .komedi-filmer1{
+          display:grid;
+          grid-column-start: 1;
+          grid-column-end: 4;
+      
+        }
+      
+        .komedi-filmer{
+          background-color:lightsteelblue;
+          padding:10px;
+      
+        }
+      
+        .konto-container{
+          background-color:lightslategray;
+          margin-left:35%;
+          margin-right:35%;
+          padding:30px;
+        }
+      
+        .inuti-konto{
+          background-color:lightskyblue;
+          margin-bottom:10px;
+          padding:5px;
+        }
+      
+        
+        .inuti-konto1{
+          background-color:lightsalmon;
+          margin-top:20px;
+          text-align:center;
+          padding:5px;
+          margin-bottom:5px;
+        }
+
+  }
