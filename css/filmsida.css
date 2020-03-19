@@ -404,6 +404,14 @@ grid-gap:10px;
     margin-bottom:5px;
   }
 
+.favorit-container{
+  display:grid;
+  grid-template-columns: auto;
+  align-items:center;
+  text-align:center;
+  margin-bottom:20px;
+}
+
   @media screen and (max-width: 600px)
   {
     .grid-container{
@@ -523,9 +531,79 @@ grid-gap:10px;
           display:grid;
           grid-gap:15px;
           text-align:center;
+          grid-template-columns: auto;
           color:white;
           margin-bottom: 50px;
       }
+
+
+      .grid-item6 {
+       grid-column-start:1;
+       grid-column-end:2;
+        background-color:#666A73;
+    
+      }
+    
+      .grid-item7{
+          
+          background-color:#666A73;
+    
+      }
+
+
+      .genre-item6{
+        padding:20px;
+          display:grid;
+          background-color:lightgreen;
+          margin-bottom: 30px;
+    
+    }
+    
+    .genre-item7{
+        padding:20px;
+        display:grid;
+        background-color: lightgray;
+       
+    }
+    
+    .genre-item8{
+        padding:20px;
+        display:grid;
+        background-color:lightgray;
+        align-items:center;
+    }
+    
+    .genre-item9{
+        padding:20px;
+        display:grid;
+        background-color:lightgray;
+        margin-bottom: 30px;
+    
+    }
+    
+    .genre-item10{
+        padding:20px;
+        display:grid;
+        background-color: lightpink;
+        
+    }
+    
+    .genre-item11{
+        padding:20px;
+        display:grid;
+        background-color:lightpink;
+        
+        align-items:center;
+    }
+    
+    .genre-item12{
+        padding:20px;
+        display:grid;
+        background-color: lightpink;
+        
+        margin-bottom: 30px;
+    
+    }
       
      
       
@@ -755,8 +833,8 @@ grid-gap:10px;
       
         .konto-container{
           background-color:lightslategray;
-          margin-left:35%;
-          margin-right:35%;
+          margin-left:10%;
+          margin-right:10%;
           padding:30px;
         }
       
