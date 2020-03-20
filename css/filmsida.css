@@ -387,6 +387,7 @@ grid-gap:10px;
     margin-left:35%;
     margin-right:35%;
     padding:30px;
+    margin-bottom:10%;
   }
 
   .inuti-konto{
@@ -404,12 +405,28 @@ grid-gap:10px;
     margin-bottom:5px;
   }
 
+.kanda-profiler{
+  text-align:center;
+  margin-bottom:10%;
+}
+
+.konto-profiler{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  text-align:center;
+}
+
 .favorit-container{
   display:grid;
   grid-template-columns: auto;
   align-items:center;
   text-align:center;
   margin-bottom:20px;
+}
+
+.fortsatt1{
+  display:grid;
+  grid-template-columns: auto auto auto;
 }
 
   @media screen and (max-width: 600px)
@@ -852,5 +869,17 @@ grid-gap:10px;
           padding:5px;
           margin-bottom:5px;
         }
+
+        .kanda-profiler{
+          text-align:center;
+          margin-bottom:10%;
+        }
+        
+        .konto-profiler{
+          display:grid;
+          grid-template-columns: auto;
+          text-align:center;
+        }
+        
 
   }
