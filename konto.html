@@ -15,20 +15,27 @@
                 <button class="sok">sök</button>
             </form>
         </div>
-        <div class="menu-sidor"><a href="index.html">
+        <div class="menu-sidor-index"><a href="index.html">
             <h3>Hem</h3>
         </a></div>
-        <div class="menu-sidor"><a href="genre.html">
+        <div class="menu-sidor-genre"><a href="genre.html">
                 <h3>Film Genrer</h3>
             </a></div>
-        <div class="menu-sidor"><a href="klassiker.html">
+        <div class="menu-sidor-klassiker"><a href="klassiker.html">
                 <h3>Klassiker</h3>
             </a></div>
-        <div class="menu-sidor"><a href="minafavoriter.html">
+        <div class="menu-sidor-favoriter"><a href="minafavoriter.html">
+            
                 <h3>Mina favoriter</h3>
             </a></div>
         <div class="menu-konto">
            <a href="konto.html">
+            <style>
+                .menu-konto a{
+                    border-bottom:3px solid red;
+                }
+                
+            </style>
                     <h3>Mitt konto</h3>
                 </a></section>
 
@@ -88,12 +95,71 @@
         <h2 class="varfor-konto">Varför borde du skapa ett konto?</h2>
 
         <div class="varfor-konto-container">
-<div class="konto-forklaring"><img src="img/user-solid.svg" width="40%"></div>
-<div class="konto-forklaring">2</div>
-<div class="konto-preferenser">3</div>
+<div class="konto-forklaring"><img src="img/user-solid.svg" width="80%"></div>
+<div class="konto-forklaring">Genom att kryssa i ”spara mina uppgifter” får du möjlighet att skapa ett kundkonto. Fördelen med att vara registrerad kund är att dina beställningar bokförs på ett och samma konto vilket underlättar i de fall du vill komma i kontakt med oss. Du kan även få komma att ta del av förmånliga erbjudanden som enbart går ut till våra registrerade kunder.
+
+</div>
+<div class="info-preferenser"><h3>klicka i de genrer du vill se mest av</h3></div>
+<div class="konto-preferenser">
+    <button id="preferenser-vanster-skrack" onclick="myFunction1()"><h3>Skräck</h3></button>
+    <button id="preferenser-hoger-action" onclick="myFunction2()"><h3>Action</h3></button>
+    <button id="preferenser-vanster-mystery" onclick="myFunction3()"><h3>Mystery</h3></button>
+    <button id="preferenser-hoger-komedi" onclick="myFunction4()"><h3>Komedi</h3></button>
+    <button id="preferenser-vanster-Sci-Fi" onclick="myFunction5()"><h3>Sci-Fi</h3></button>
+    <button id="preferenser-hoger-karlek" onclick="myFunction6()"><h3>Kärlek</h3></button>
+    <button id="spara-mitten" onclick="myFunction7()"><h2>Spara</h2></button>
+   
+   <script>
+        function myFunction1() {
+          document.getElementById("preferenser-vanster-skrack").style.backgroundColor = "lightgray";
+        }
+        </script>
+    
+   <script>
+    function myFunction2() {
+      document.getElementById("preferenser-hoger-action").style.backgroundColor = "lightgray";
+    }
+    </script>
+     <script>
+        function myFunction3() {
+          document.getElementById("preferenser-vanster-mystery").style.backgroundColor = "lightgray";
+        }
+        </script>
+         <script>
+            function myFunction4() {
+              document.getElementById("preferenser-hoger-komedi").style.backgroundColor = "lightgray";
+            }
+            </script>
+             <script>
+                function myFunction5() {
+                  document.getElementById("preferenser-vanster-Sci-Fi").style.backgroundColor = "lightgray";
+                }
+                </script>
+                 <script>
+                    function myFunction6() {
+                      document.getElementById("preferenser-hoger-karlek").style.backgroundColor = "lightgray";
+                    }
+                    </script>
+                    <script>
+                        function myFunction7() {
+                          document.getElementById("spara-mitten").innerHTML = "Sparat!";
+                        }
+                        </script>
+
+</div>
 
 
         </div>
+        <footer class="medier-container">
 
+            <div class="medier"><a href="https://www.youtube.com/?hl=sv&gl=SE"><img src="img/instagram.png" >
+            </a></div>
+            <div class="medier"><a href="https://www.instagram.com/?hl=sv"><img src="img/brands-and-logotypes.png"  ></a></div>
+            <div class="medier"><a href="https://twitter.com/explore"><img src="img/twitter.png"  ></a></div>
+    
+    
+    
+    
+        </footer>
 </body>
 </html>
