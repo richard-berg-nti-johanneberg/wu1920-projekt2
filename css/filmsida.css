@@ -4,38 +4,38 @@ body{
 }   
 
 .menu-container{
-display:grid;
-background-color:#2F3540;
-grid-gap:5px;
-grid-template-columns: auto auto auto auto auto;
-text-align:center;
-padding:20px;
-margin-bottom: 15px;
+  display:grid;
+  background-color:#2F3540;
+  grid-gap:5px;
+  grid-template-columns: auto auto auto auto auto auto ;
+  text-align:center;
+  padding:20px;
+  margin-bottom: 15px;
+  
+  }
 
-}
-
-.menu-item{
+.menu-sidor{
     background-color: #666A73;
     display:grid;
     align-items: center;
     
-    
 }
 
-.menu-item1{
+.menu-konto{
     background-color: #666A73;
     display:grid;
-    grid-template-columns: auto auto;
-   
+    grid-template-columns: auto;
+   width:100%;
     align-items: center;
-    
+
 }
 
-.menu-item2{
+.menu-sok{
     background-color: #666A73;
     display: grid;
     justify-content: center;
     align-items: center;
+
 }
 
 .form {
@@ -111,7 +111,7 @@ margin-bottom: 15px;
   to {opacity: 1}
 }
 
-.grid-container2{
+.topplistan-container{
     display:grid;
     grid-gap:15px;
     text-align:center;
@@ -119,14 +119,14 @@ margin-bottom: 15px;
     margin-bottom: 50px;
 }
 
-.menu-item6 {
+.topplistan {
     grid-column-start: 2;
     grid-column-end: 4;
     background-color:#666A73;
 
   }
 
-  .menu-item7{
+  .veckans-film{
       grid-row-start:1;
       grid-row-end:4;
       background-color:#666A73;
@@ -134,27 +134,15 @@ margin-bottom: 15px;
   }
 
 
-.menu-item9{
+.topplistan-film{
     background-color:#666A73;
 
 }
-.menu-item10{
-    background-color:#666A73;
 
-
-}
-.menu-item11{
-    background-color:#666A73;
-
-}
-.menu-item12{
-    background-color:#666A73;
-
-}
 
 
 img{
-    max-width:50%;
+    max-width:100%;
     padding:10px
 }
 
@@ -174,257 +162,236 @@ a:link {
     color:black;
   }
 
-  .grid-container3{
+  .extra-container{
       background: lightgray;
       display:grid;
       grid-template-columns:auto auto auto auto;
       text-align: center;
   }
 
+.film-genrer{
+  display:grid;
+  grid-template-columns:auto auto auto ;
+  text-align: center;
+  color:white;
+  margin-left:3%;
+  margin-right:3%;
+  margin-bottom:1%;
+grid-gap:1px;
+}
+  .rubrik-genre{
+    background-color: lightslategray;
 
-  .rubrik2{
-      display:grid;
-      background-color: yellow;
-      text-align:center;
-      padding:10px;
-      margin-bottom:30px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding:1%;
   }
-  .rubrik-item{
-      display:grid;
+  .genre-beskrivning{
+    background-color: lightslategray;
+    display:grid;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align:justify;
+    padding:1%;
+  }
+  .genre-bild{
+    background-color: lightslategray;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width:100%;
   }
 
-  .genrer{
-      display:grid;
-      grid-gap:10px;
-      text-align:center;
-      align-items: center;
+  .genre-lank{
+    background-color: lightslategray;
+    grid-column-start: 4;
+    grid-column-end: 5;
+padding:5%
   }
-  .genre-item{
-      padding:20px;
-      display:grid;
-      background-color: lightblue;
-      grid-column-start: 1;
-      grid-column-end: 4;
-  }
-  .genre-item2{
-      padding:20px;
-      display:grid;
-      background-color:lightblue;
-      grid-column-start:4;
-      grid-column-end:4;
-      grid-row-start:1;
-      grid-row-end:3;
-      align-items:center;
   
-
-  }
-  .genre-item3{
-      padding:20px;
-      display:grid;
-      background-color:lightblue;
-      grid-column-start: 1;
-      grid-column-end: 4;
-      margin-bottom: 30px;
-  }
-
-  .genre-item4{
-    padding:20px;
-    display:grid;
-    background-color: lightgreen;
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-
-.genre-item5{
-    padding:20px;
-    display:grid;
-    background-color:lightgreen;
-    grid-column-start:4;
-    grid-column-end:4;
-    grid-row-start:3;
-    grid-row-end:5;
-    align-items:center;
-}
-
-.genre-item6{
-    padding:20px;
-      display:grid;
-      background-color:lightgreen;
-      grid-column-start: 1;
-      grid-column-end: 4;
-      margin-bottom: 30px;
-
-}
-
-.genre-item7{
-    padding:20px;
-    display:grid;
-    background-color: lightgray;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.genre-item8{
-    padding:20px;
-    display:grid;
-    background-color:lightgray;
-    grid-column-start:4;
-    grid-column-end:4;
-    grid-row-start:5;
-    grid-row-end:7;
-    align-items:center;
-}
-
-.genre-item9{
-    padding:20px;
-    display:grid;
-    background-color:lightgray;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    margin-bottom: 30px;
-
-}
-
-.genre-item10{
-    padding:20px;
-    display:grid;
-    background-color: lightpink;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.genre-item11{
-    padding:20px;
-    display:grid;
-    background-color:lightpink;
-    grid-column-start:4;
-    grid-column-end:4;
-    grid-row-start:7;
-    grid-row-end:9;
-    align-items:center;
-}
-
-.genre-item12{
-    padding:20px;
-    display:grid;
-    background-color: lightpink;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    margin-bottom: 30px;
-
-}
+  
 
   img{
       margin-left: auto;
       margin-right:auto;    
   }
 
-  .klassiska-container{
-    display:grid;
-   background-color: lightgreen;
-   grid-gap:10px;
-   margin-bottom:10px;
-  }
-
-  .klassiska-container2{
-    display:grid;
-grid-gap:10px;
-
-  }
+ 
+.klassiska-container{
+  display:grid;
+  grid-column-start:1;
+  grid-column-end:2;
+  width:50%;
+  padding:2%;
+}
+  
+.klassiska-container2{
+  display:grid;
+  grid-gap:3%;
+}
   .klassiska-item2{
     display:grid;
-    background-color:lightyellow;
     grid-template-columns:auto auto auto ;
-    grid-gap:5px;
+    grid-gap:1%;
     text-align:center;
-  }
-
-  .barn-filmer1{
-    display:grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-
-  }
-  .barn-filmer{
-    background-color:lightsteelblue;
-    padding:10px;
-  }
-
-  .skrack-filmer1{
-    display:grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-
-  }
-
-  .skrack-filmer{
-    background-color:lightsteelblue;
-    padding:10px;
-
-  }
-
-  .komedi-filmer1{
-    display:grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-
-  }
-
-  .komedi-filmer{
-    background-color:lightsteelblue;
-    padding:10px;
-
-  }
-
-  .konto-container{
-    background-color:lightslategray;
-    margin-left:35%;
-    margin-right:35%;
-    padding:30px;
-    margin-bottom:10%;
-  }
-
-  .inuti-konto{
-    background-color:lightskyblue;
-    margin-bottom:10px;
-    padding:5px;
   }
 
   
-  .inuti-konto1{
-    background-color:lightsalmon;
-    margin-top:20px;
-    text-align:center;
-    padding:5px;
-    margin-bottom:5px;
+  
+  .klassiker-filmer{
+    background-color:lightsteelblue;
+    padding:10px;
   }
 
-.kanda-profiler{
-  text-align:center;
-  margin-bottom:10%;
+  .titel-genre{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+  }
+
+  
+  
+
+  .info-container{
+    display:grid;
+    }
+.favoriter-container{
+  display:grid;
+  grid-template-columns: auto auto auto ;
+text-align:center;
+padding:1%;
+margin-bottom:4%;
 }
 
-.konto-profiler{
+
+
+.forsatt-titta{
   display:grid;
+  background-color:gainsboro;
   grid-template-columns: auto auto auto;
-  text-align:center;
+  grid-template-rows: auto auto auto;
+  position:relative;
+text-align:center;
+
+grid-gap:2%;
 }
 
-.favorit-container{
+.forsatt-text{
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+.forsatt-bild{
+  grid-column-start:1;
+  grid-column-end:4;
+}
+
+.forsatt-mindre{
+  grid-column-start:1;
+  grid-column-end:4;
+  background-color:lightslategrey;
+  padding:1%;
+}
+
+.progress{
+  background-color:white;
+}
+
+.forsatt-filmer{
+display:grid;
+margin-bottom:50%;
+
+}
+
+.progress-bar{
+  background-color:black;
+}
+.progress-bar2{
+  background-color:black;
+}
+.progress-bar3{
+  background-color:black;
+}
+
+.sr-only{
+  color:white;
+}
+
+.inlogg-container{
+  background-color:lightgray;
   display:grid;
-  grid-template-columns: auto;
-  align-items:center;
-  text-align:center;
-  margin-bottom:20px;
+justify-content:center;
+grid-template-columns: auto auto;
+grid-gap:5%;
+
+padding:5%;
+padding-bottom:15%;
+text-align:center;
+margin-left:30%;
+margin-right:30%;
 }
 
-.fortsatt1{
+.harkonto{
   display:grid;
-  grid-template-columns: auto auto auto;
+  grid-gap:5%;
+  grid-template-columns:auto
 }
 
+.registrera{
+  display:grid;
+  grid-gap:5%;
+  grid-template-columns:auto
+
+}
+.rubrik-logga-in{
+  display:grid;
+  grid-column-start:1;
+  grid-column-end:1;
+  
+}
+.uppgifter{
+  display:grid;
+  grid-column-start:1;
+  grid-column-end:1;
+  
+}
+
+.logga-in{
+  display:grid;
+  grid-column-start:1;
+  grid-column-end:1;
+  background-color:lightskyblue;
+  padding:8%;
+  
+}
+
+.nya-uppgifter{
+  display:grid;
+  
+}
+
+.varfor-konto-container{
+  display:grid;
+  grid-template-columns:auto auto;
+  background-color:grey;
+}
+
+.konto-preferenser{
+  display:grid;
+  grid-column-start:1;
+  grid-column-end:3;
+}
   @media screen and (max-width: 600px)
   {
+    
     .menu-container{
       display:grid;
       grid-gap:auto;
@@ -435,24 +402,27 @@ grid-gap:10px;
       
       }
       
-      .menu-item{
-          background-color: #666A73;
-          display:grid;
-          align-items: center;
-          
-          
-      }
+      .menu-container-forsta{
+        display:grid;
+        grid-gap:auto;
+        grid-template-columns: auto;
+        text-align:center;
+        grid-gap:10px;
+        margin-bottom: 10px;
+        
+        }
       
-      .menu-item1{
+      
+      .menu-konto{
           background-color: #666A73;
           display:grid;
-          grid-template-columns: auto auto;
+          grid-template-columns: auto;
          
           align-items: center;
           
       }
       
-      .menu-item2{
+      .menu-sok{
           background-color: #666A73;
           display: grid;
           align-items: center;
@@ -534,7 +504,7 @@ grid-gap:10px;
         to {opacity: 1}
       }
       
-      .grid-container2{
+      .topplistan-container{
           display:grid;
           grid-gap:15px;
           text-align:center;
@@ -544,79 +514,27 @@ grid-gap:10px;
       }
 
 
-      .menu-item6 {
+      .topplistan {
        grid-column-start:1;
        grid-column-end:2;
         background-color:#666A73;
     
       }
     
-      .menu-item7{
-          
+      .veckans-film{
+          grid-row-start:2;
+          grid-row-end:2;
           background-color:#666A73;
     
       }
 
 
-      .genre-item6{
-        padding:20px;
-          display:grid;
-          background-color:lightgreen;
-          margin-bottom: 30px;
-    
-    }
-    
-    .genre-item7{
-        padding:20px;
-        display:grid;
-        background-color: lightgray;
-       
-    }
-    
-    .genre-item8{
-        padding:20px;
-        display:grid;
-        background-color:lightgray;
-        align-items:center;
-    }
-    
-    .genre-item9{
-        padding:20px;
-        display:grid;
-        background-color:lightgray;
-        margin-bottom: 30px;
-    
-    }
-    
-    .genre-item10{
-        padding:20px;
-        display:grid;
-        background-color: lightpink;
-        
-    }
-    
-    .genre-item11{
-        padding:20px;
-        display:grid;
-        background-color:lightpink;
-        
-        align-items:center;
-    }
-    
-    .genre-item12{
-        padding:20px;
-        display:grid;
-        background-color: lightpink;
-        
-        margin-bottom: 30px;
-    
-    }
       
      
       
       
       img{
-          max-width:50%;
+          max-width:100%;
           padding:10px
       }
       
@@ -636,145 +554,13 @@ grid-gap:10px;
           color:black;
         }
       
-        .grid-container3{
+        .extra-container    {
             background: lightgray;
             display:grid;
             grid-template-columns:auto auto auto auto;
             text-align: center;
         }
       
-      
-        .rubrik2{
-            display:grid;
-            background-color: yellow;
-            text-align:center;
-            padding:10px;
-            margin-bottom:30px;
-        }
-        .rubrik-item{
-            display:grid;
-        }
-      
-        .genrer{
-            display:grid;
-            grid-gap:10px;
-            text-align:center;
-            align-items: center;
-        }
-        .genre-item{
-            padding:20px;
-            display:grid;
-            background-color: lightblue;
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
-        .genre-item2{
-            padding:20px;
-            display:grid;
-            background-color:lightblue;
-            grid-column-start:4;
-            grid-column-end:4;
-            grid-row-start:1;
-            grid-row-end:3;
-            align-items:center;
-        
-      
-        }
-        .genre-item3{
-            padding:20px;
-            display:grid;
-            background-color:lightblue;
-            grid-column-start: 1;
-            grid-column-end: 4;
-            margin-bottom: 30px;
-        }
-      
-        .genre-item4{
-          padding:20px;
-          display:grid;
-          background-color: lightgreen;
-          grid-column-start: 1;
-          grid-column-end: 4;
-        }
-      
-      .genre-item5{
-          padding:20px;
-          display:grid;
-          background-color:lightgreen;
-          grid-column-start:4;
-          grid-column-end:4;
-          grid-row-start:3;
-          grid-row-end:5;
-          align-items:center;
-      }
-      
-      .genre-item6{
-          padding:20px;
-            display:grid;
-            background-color:lightgreen;
-            grid-column-start: 1;
-            grid-column-end: 4;
-            margin-bottom: 30px;
-      
-      }
-      
-      .genre-item7{
-          padding:20px;
-          display:grid;
-          background-color: lightgray;
-          grid-column-start: 1;
-          grid-column-end: 4;
-      }
-      
-      .genre-item8{
-          padding:20px;
-          display:grid;
-          background-color:lightgray;
-          grid-column-start:4;
-          grid-column-end:4;
-          grid-row-start:5;
-          grid-row-end:7;
-          align-items:center;
-      }
-      
-      .genre-item9{
-          padding:20px;
-          display:grid;
-          background-color:lightgray;
-          grid-column-start: 1;
-          grid-column-end: 4;
-          margin-bottom: 30px;
-      
-      }
-      
-      .genre-item10{
-          padding:20px;
-          display:grid;
-          background-color: lightpink;
-          grid-column-start: 1;
-          grid-column-end: 4;
-      }
-      
-      .genre-item11{
-          padding:20px;
-          display:grid;
-          background-color:lightpink;
-          grid-column-start:4;
-          grid-column-end:4;
-          grid-row-start:7;
-          grid-row-end:9;
-          align-items:center;
-      }
-      
-      .genre-item12{
-          padding:20px;
-          display:grid;
-          background-color: lightpink;
-          grid-column-start: 1;
-          grid-column-end: 4;
-          margin-bottom: 30px;
-      
-      }
       
         img{
             margin-left: auto;
@@ -783,93 +569,156 @@ grid-gap:10px;
       
         .klassiska-container{
           display:grid;
-         background-color: lightgreen;
-         grid-gap:10px;
-         margin-bottom:10px;
+         grid-gap:5px;
+         margin-bottom:5px;
+         grid-column-start: 1;
+         grid-column-end: 2;
+         width:100%;
+
         }
       
         .klassiska-container2{
           display:grid;
+          grid-template-columns: auto;
       grid-gap:10px;
       
         }
         .klassiska-item2{
           display:grid;
           background-color:lightyellow;
-          grid-template-columns:auto auto auto ;
+          grid-template-columns:auto ;
           grid-gap:5px;
           text-align:center;
         }
       
-        .barn-filmer1{
-          display:grid;
-          grid-column-start: 1;
-          grid-column-end: 4;
-      
-        }
-        .barn-filmer{
-          background-color:lightsteelblue;
-          padding:10px;
-        }
-      
-        .skrack-filmer1{
-          display:grid;
-          grid-column-start: 1;
-          grid-column-end: 4;
-      
-        }
-      
-        .skrack-filmer{
-          background-color:lightsteelblue;
-          padding:10px;
-      
-        }
-      
-        .komedi-filmer1{
-          display:grid;
-          grid-column-start: 1;
-          grid-column-end: 4;
-      
-        }
-      
-        .komedi-filmer{
-          background-color:lightsteelblue;
-          padding:10px;
-      
-        }
-      
-        .konto-container{
-          background-color:lightslategray;
-          margin-left:10%;
-          margin-right:10%;
-          padding:30px;
-        }
-      
-        .inuti-konto{
-          background-color:lightskyblue;
-          margin-bottom:10px;
-          padding:5px;
-        }
-      
+      .klassiker-filmer{
+        grid-template-columns: auto;
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
         
-        .inuti-konto1{
-          background-color:lightsalmon;
-          margin-top:20px;
-          text-align:center;
-          padding:5px;
-          margin-bottom:5px;
+        .film-genrer{
+          display:grid;
+          text-align: center;
+          color:white;
+         
+        grid-gap:5px;
+        }
+        .rubrik-genre{
+          grid-column-start:1;
+          grid-column-end:1;
+
+        }
+        .genre-beskrivning{
+          grid-column-start:1;
+          grid-column-end:1;
+
+        }
+        .genre-bild{
+          grid-column-start:1;
+          grid-column-end:1;
+
+        }
+        .genre-lank{
+          grid-column-start:1;
+          grid-column-end:1;
         }
 
-        .kanda-profiler{
-          text-align:center;
-          margin-bottom:10%;
-        }
-        
-        .konto-profiler{
+
+        .favoriter-container{
           display:grid;
           grid-template-columns: auto;
-          text-align:center;
+        text-align:left;
+        padding:1%;
+        }
+
+        .forsatt-titta{
+          display:grid;
+          background-color:gainsboro;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          position:relative;
+        text-align:center;
+       
         }
         
+        .forsatt-text{
+          grid-column-start:1;
+          grid-column-end:1;
+          grid-row-start:1;
+          grid-row-end:1;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color:white;
+        }
+        .forsatt-bild{
+          grid-column-start:1;
+          grid-column-end:1;
+        }
+        
+        .forsatt-mindre{
+          grid-column-start:1;
+          grid-column-end:1;
+          background-color:lightslategrey;
+          padding:1%;
+        }
 
+
+
+
+
+        .inlogg-container{
+          background-color:lightgray;
+          display:grid;
+        justify-content:center;
+        grid-template-columns: auto;
+        grid-gap:5%;
+        
+        padding:5%;
+        padding-bottom:30%;
+        text-align:center;
+        margin-left:20%;
+        margin-right:20%;
+        }
+        
+        .harkonto{
+          display:grid;
+          grid-gap:5%;
+          grid-template-columns:auto
+        }
+        
+        .registrera{
+          display:grid;
+          grid-gap:5%;
+          grid-template-columns:auto
+        
+        }
+        .rubrik-logga-in{
+          display:grid;
+          grid-column-start:1;
+          grid-column-end:1;
+          
+        }
+        .uppgifter{
+          display:grid;
+          grid-column-start:1;
+          grid-column-end:1;
+          
+        }
+        
+        .logga-in{
+          display:grid;
+          grid-column-start:1;
+          grid-column-end:1;
+          background-color:lightskyblue;
+          padding:8%;
+          
+        }
+        
+        .nya-uppgifter{
+          display:grid;
+          
+        }
   }
