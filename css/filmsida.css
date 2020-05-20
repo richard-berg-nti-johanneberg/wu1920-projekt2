@@ -14,12 +14,95 @@ body{
   
   }
 
-.menu-sidor{
+  .medier-container{
+    background-color:lightsteelblue;
+    display:grid;
+    grid-template-columns: auto auto auto;
+text-align:center;
+padding:1%;
+margin-top:10%;
+  }
+
+  .medier img{
+    display:grid;
+max-width:20%;  }
+  
+  
+
+.menu-sidor-index{
     background-color: #666A73;
     display:grid;
     align-items: center;
-    
 }
+
+.menu-sidor-index a{
+  color:white;
+  text-decoration:none;
+}
+
+.menu-sidor-index a:hover{
+  border-bottom:3px solid red;
+}
+
+.menu-sidor-genre{
+  background-color: #666A73;
+  display:grid;
+  align-items: center;
+}
+
+.menu-sidor-genre a{
+  color:white;
+  text-decoration:none;
+}
+
+.menu-sidor-genre a:hover{
+  border-bottom:3px solid red;
+}
+
+.menu-sidor-genre a:active{
+  border-bottom:3px solid red;
+}
+
+
+.menu-sidor-klassiker{
+  background-color: #666A73;
+  display:grid;
+  align-items: center;
+}
+
+.menu-sidor-klassiker a{
+  color:white;
+  text-decoration:none;
+}
+
+.menu-sidor-klassiker a:hover{
+  border-bottom:3px solid red;
+}
+
+.menu-sidor-klassiker a:active{
+  border-bottom:3px solid red;
+}
+
+
+.menu-sidor-favoriter{
+  background-color: #666A73;
+  display:grid;
+  align-items: center;
+}
+
+.menu-sidor-favoriter a{
+  color:white;
+  text-decoration:none;
+}
+
+.menu-sidor-favoriter a:hover{
+  border-bottom:3px solid red;
+}
+
+.menu-sidor-favoriter a:active{
+  border-bottom:3px solid red;
+}
+
 
 .menu-konto{
     background-color: #666A73;
@@ -27,8 +110,21 @@ body{
     grid-template-columns: auto;
    width:100%;
     align-items: center;
-
 }
+
+.menu-konto a{
+  color:white;
+  text-decoration:none;
+}
+
+.menu-konto a:hover{
+  border-bottom:3px solid red;
+}
+
+.menu-konto a:active{
+  border-bottom:3px solid red;
+}
+
 
 .menu-sok{
     background-color: #666A73;
@@ -146,28 +242,10 @@ img{
     padding:10px
 }
 
-a:link {
-    text-decoration: none;
-    color:white;
-    
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color:white;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    color:black;
-  }
 
-  .extra-container{
-      background: lightgray;
-      display:grid;
-      grid-template-columns:auto auto auto auto;
-      text-align: center;
-  }
+  
+
+  
 
 .film-genrer{
   display:grid;
@@ -335,10 +413,14 @@ grid-gap:5%;
 padding:5%;
 padding-bottom:15%;
 text-align:center;
-margin-left:30%;
-margin-right:30%;
+margin-left:20%;
+margin-right:20%;
 }
 
+.inlogg-container a{
+  color:white;
+  text-decoration:none;
+}
 .harkonto{
   display:grid;
   grid-gap:5%;
@@ -381,13 +463,86 @@ margin-right:30%;
 .varfor-konto-container{
   display:grid;
   grid-template-columns:auto auto;
+  margin-left:5%;
+  margin-right:5%;
+  justify-content: center;
+  text-align:left;
+  color:white;
+}
+
+.konto-forklaring{
   background-color:grey;
+  display:grid;
+align-items:center;
+  text-align:center;
 }
 
 .konto-preferenser{
+  background-color:grey;
   display:grid;
   grid-column-start:1;
   grid-column-end:3;
+  grid-template-columns: auto auto;
+text-align:center;
+padding-top:4%;
+padding-bottom:20%;
+
+
+grid-gap:20%;
+}
+
+#preferenser-vanster-skrack{
+  background-color:#fff;
+  margin-left:20%;
+  padding:5%;
+}
+#preferenser-vanster-mystery{
+  background-color:#fff;
+  margin-left:20%;
+  padding:5%;
+}
+#preferenser-vanster-Sci-Fi{
+  background-color:#fff;
+  margin-left:20%;
+  padding:5%;
+}
+
+.info-preferenser{
+  display:grid;
+  background-color:grey;
+  grid-column-start:1;
+  grid-column-end:3;
+  text-align:center;
+}
+
+
+#preferenser-hoger-action{
+  background-color:#fff;
+  margin-right:20%;
+  padding:5%;
+}
+#preferenser-hoger-komedi{
+  background-color:#fff;
+  margin-right:20%;
+  padding:5%;
+}
+#preferenser-hoger-karlek{
+  background-color:#fff;
+  margin-right:20%;
+  padding:5%;
+}
+
+
+
+#spara-mitten{
+background-color:#85E823;
+  display:grid;
+  margin-left:20%;
+  margin-right:20%;
+  padding:2%;
+  grid-column-start:1;
+  grid-column-end:3;
+justify-content: center;  
 }
   @media screen and (max-width: 600px)
   {
@@ -544,23 +699,10 @@ margin-right:30%;
           
         }
         
-        a:visited {
-          text-decoration: none;
-          color:white;
-        }
-        
         a:hover {
           text-decoration: underline;
           color:black;
         }
-      
-        .extra-container    {
-            background: lightgray;
-            display:grid;
-            grid-template-columns:auto auto auto auto;
-            text-align: center;
-        }
-      
       
         img{
             margin-left: auto;
@@ -679,8 +821,8 @@ margin-right:30%;
         padding:5%;
         padding-bottom:30%;
         text-align:center;
-        margin-left:20%;
-        margin-right:20%;
+        margin-left:10%;
+        margin-right:10%;
         }
         
         .harkonto{
@@ -721,4 +863,99 @@ margin-right:30%;
           display:grid;
           
         }
+
+        .medier img {
+          display: grid;
+          max-width: 50%;
+      }
+      .varfor-konto-container{
+        display:grid;
+        grid-template-columns:auto ;
+        margin-left:5%;
+        margin-right:5%;
+        justify-content: center;
+        text-align:left;
+        color:white;
+        grid-gap:0.5%;
+      }
+      
+      .konto-forklaring{
+        background-color:grey;
+        grid-column-start:1;
+        grid-column-end:2;
+        display:grid;
+      align-items:center;
+        text-align:center;
+      }
+
+      .konto-forklaring img{
+        width:50%;
+      }
+      
+      .konto-preferenser{
+        background-color:grey;
+        display:grid;
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-template-columns: auto ;
+      text-align:center;
+      padding-top:4%;
+      padding-bottom:30%;
+      
+      
+      grid-gap:20%;
+      }
+      
+      #preferenser-vanster-skrack{
+        background-color:lightgray;
+        margin-left:20%;
+        padding:5%;
+      }
+      #preferenser-vanster-mystery{
+        background-color:lightgray;
+        margin-left:20%;
+        padding:5%;
+      }
+      #preferenser-vanster-Sci-Fi{
+        background-color:lightgray;
+        margin-left:20%;
+        padding:5%;
+      }
+      
+      .info-preferenser{
+        display:grid;
+        background-color:grey;
+        
+        text-align:center;
+      }
+      
+      
+      #preferenser-hoger-action{
+        background-color:lightgray;
+        margin-right:20%;
+        padding:5%;
+      }
+      #preferenser-hoger-komedi{
+        background-color:lightgray;
+        margin-right:20%;
+        padding:5%;
+      }
+      #preferenser-hoger-karlek{
+        background-color:lightgray;
+        margin-right:20%;
+        padding:5%;
+      }
+      
+      
+      
+      #spara-mitten{
+      background-color:lightgray;
+        display:grid;
+        margin-left:20%;
+        margin-right:20%;
+        padding:2%;
+      
+        
+      justify-content: center;  
+      }
   }
