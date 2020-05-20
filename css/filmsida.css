@@ -6,11 +6,9 @@ body{
 .menu-container{
   display:grid;
   background-color:#2F3540;
-  grid-gap:5px;
   grid-template-columns: auto auto auto auto auto auto ;
   text-align:center;
-  padding:20px;
-  margin-bottom: 15px;
+margin-bottom: 15px;
   
   }
 
@@ -30,7 +28,6 @@ max-width:20%;  }
   
 
 .menu-sidor-index{
-    background-color: #666A73;
     display:grid;
     align-items: center;
 }
@@ -45,7 +42,6 @@ max-width:20%;  }
 }
 
 .menu-sidor-genre{
-  background-color: #666A73;
   display:grid;
   align-items: center;
 }
@@ -65,7 +61,6 @@ max-width:20%;  }
 
 
 .menu-sidor-klassiker{
-  background-color: #666A73;
   display:grid;
   align-items: center;
 }
@@ -85,8 +80,7 @@ max-width:20%;  }
 
 
 .menu-sidor-favoriter{
-  background-color: #666A73;
-  display:grid;
+    display:grid;
   align-items: center;
 }
 
@@ -105,7 +99,6 @@ max-width:20%;  }
 
 
 .menu-konto{
-    background-color: #666A73;
     display:grid;
     grid-template-columns: auto;
    width:100%;
@@ -127,7 +120,6 @@ max-width:20%;  }
 
 
 .menu-sok{
-    background-color: #666A73;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -329,12 +321,6 @@ padding:5%
 
   }
 
-  
-  
-
-  .info-container{
-    display:grid;
-    }
 .favoriter-container{
   display:grid;
   grid-template-columns: auto auto auto ;
@@ -552,24 +538,12 @@ justify-content: center;
       grid-gap:auto;
       grid-template-columns: auto;
       text-align:center;
-      grid-gap:10px;
       margin-bottom: 10px;
       
       }
       
-      .menu-container-forsta{
-        display:grid;
-        grid-gap:auto;
-        grid-template-columns: auto;
-        text-align:center;
-        grid-gap:10px;
-        margin-bottom: 10px;
-        
-        }
-      
       
       .menu-konto{
-          background-color: #666A73;
           display:grid;
           grid-template-columns: auto;
          
@@ -578,7 +552,6 @@ justify-content: center;
       }
       
       .menu-sok{
-          background-color: #666A73;
           display: grid;
           align-items: center;
           padding:5%;
@@ -692,18 +665,6 @@ justify-content: center;
           max-width:100%;
           padding:10px
       }
-      
-      a:link {
-          text-decoration: none;
-          color:white;
-          
-        }
-        
-        a:hover {
-          text-decoration: underline;
-          color:black;
-        }
-      
         img{
             margin-left: auto;
             margin-right:auto;    
